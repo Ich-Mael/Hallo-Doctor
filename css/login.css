@@ -1,0 +1,166 @@
+/* Common  styles */
+
+html {
+    font-size: 90.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* End of common styles */
+
+#form-header {
+    background: linear-gradient( to bottom, rgba(39, 39, 39, 0.6), rgba(56, 55, 55, 0.5), rgba(56, 55, 55, 0.4), rgba(56, 55, 55, 0.3), rgba(39, 39, 39, 0.2)), url(../images/background-6.jpg);
+    height: 100vh;
+    background-size: cover;
+    font-size: large;
+    color: antiquewhite;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+
+/*brand */
+
+#brand-link {
+    font-family: fondamento;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #000000, #000000, #434343, #000000, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000000, #000000, #434343, #000000, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.5rem;
+    color: rgb(230, 227, 223);
+    text-shadow: 0px 4px 3px rgba(121, 120, 138, 0.4), 1px 2px 8px rgba(167, 185, 197, 0.5), 1px 2px 3px rgba(103, 111, 117, 0.3);
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    border: 0.2rem solid #10d9e7;
+    border-radius: 0.4rem;
+    box-shadow: 0 2rem 4rem rgba(99, 98, 97, 0.5);
+    display: block;
+    z-index: 5;
+    text-decoration: none;
+}
+
+#brand {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*End-brand */
+
+
+/* navbar */
+
+#my-navbar {
+    z-index: 3;
+}
+
+.nav-link {
+    color: white;
+}
+
+#navbar-link-1,
+#navbar-link-2,
+#navbar-link-3,
+#navbarDropdown {
+    color: rgb(165, 171, 172);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .15rem;
+}
+
+
+/*End Navbar*/
+
+
+/* login form */
+
+#form-container {
+    border: 2px solid rgb(247, 232, 232);
+    border-radius: 2px;
+    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: rgba(32, 33, 34, 0.7);
+    -webkit-box-shadow: 6px -2px 16px -1px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 6px -2px 16px -1px rgba(0, 0, 0, 0.64);
+    box-shadow: 6px -2px 16px -1px rgba(0, 0, 0, 0.64);
+}
+
+.login-container {
+    height: 80vh;
+    width: 100%;
+}
+
+.login-form {
+    margin: auto;
+    width: 370px;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.login-form .form-control {
+    font-size: 1.1rem;
+    min-height: 2.5rem;
+    font-weight: 500;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: rgb(17, 140, 211);
+}
+
+.login-form a:hover {
+    color: #0ac5bc;
+}
+
+.forgot-link {
+    font-size: 13px;
+}
+
+.form-control:focus {
+    border-color: #11b8e2;
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.btn-custom {
+    background: -webkit-linear-gradient(to right, #35ace4, #43f5a2, #10b0b6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45c2fc, #1dfdc5, #229ab8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: #723dbe;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 2.5rem;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+    background: #272c2c;
+    border-color: #54229d;
+    color: #14f773;
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
